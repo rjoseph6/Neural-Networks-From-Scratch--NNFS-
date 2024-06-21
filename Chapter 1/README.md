@@ -1,7 +1,11 @@
 # Chapter 1 : Introducing Neural Networks
 Pg 11-24
 
-# Questions
+Sub Topics:
+1. A Brief History
+2. What is a Neural Network?
+
+# Practice Questions
 1. What is a DEEP neural network?
 2. What are the main components in a neural network?
 3. What is funny about individual neurons in a neural network?
