@@ -2,7 +2,7 @@
 
 We attempt to create a Neural Network completly from scratch (without the use of any libraries) using the book "Neural Networks from Scratch" by Harrison Kinsley and Daniel Kukiela. The only library we will be using is Numpy (to maintain sanity).
 
-![title](References/nnfs_bookcover.jpeg)
+![title](references/nnfs_bookcover.jpeg)
 
 
 # Table of Contents
@@ -43,7 +43,7 @@ We attempt to create a Neural Network completly from scratch (without the use of
 # Credits
 This entire Github Repository is dedicated to SentDex. He not only taught me how to program but also how to think like a programmer. I am forever grateful for his tutorials and his dedication to teaching.
 
-![title](References/sentdex.jpeg)
+![title](references/sentdex.jpeg)
 YouTube Channel : https://www.youtube.com/watch?v=Wo5dMEP_BbI&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3 
 
 Website : https://pythonprogramming.net/
