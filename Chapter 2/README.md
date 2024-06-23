@@ -232,12 +232,56 @@ Layer of Neurons Output: [4.8, 1.21, 2.385]
 
 # A Batch of Data
 
-Created using Giphy website. Giphy only really works in Chrome
+We often work with batches of data in ML. This is because of two reasons: Faster Training and Generalization. The faster training comes from the fact that we can parallelize the computation of the outputs of the neurons. Generalization comes from the fact that we can train the model on multiple examples at once. The more samples you have in each batch, a more representative slope you get. Also, the changes in the slope between batches are less drastic.
+
+```python
+batch = [[1, 5, 2, 1],
+         [7, 3, 5, 2],
+         [1, 2, 3, 4],
+         [5, 6, 8, 9]]
+```
+
+Created using Giphy website. Giphy only really works in Chrome. The quality however always gets diminshed. Need to fix the quality issue.
 ![Various Batch Sizes](../references/batches_working.gif)
 
 # Matrix Product
+### Dot Product
+Operates on two vectors to return a scalar.
+### Matrix Product
+Operates on two matrices to produce another matrix. Each element of the resulting matrix is a dot product of a row from the first matrix and a column from the second matrix. 
+
+![image.png](../references/matrix_product_2.png)
+### Above Example
+```
+Left Matrix: (5,4)
+Upper Right Matrix: (4,5)
+
+Resulting Array: (5,5)
+```
+
+### Another Example
+```
+Left Matrix: (5,4)
+Right Matrix: (4,7)
+```
+Resulting Matrix will be the size of the left matrix (5,7) first dimension (5) and the rights matrix (4,7) second dimension (7). 
+
+(Rows, Columns)
+```
+Resulting Matrix: (5,7)
+```
 
 # Transposition for the Matrix Product
+
+### Defintion
+Modifies a matrix so that the rows become columns and the columns become rows.
+
+![image.png](../references/array_transposition.png)
+
+### Row to Column
+Transposing a row vector will result in a column vector.
+
+![image.png](../references/row_column.png)
 
 # A Layer of Neurons and Batch of Data w/ Numpy
 
