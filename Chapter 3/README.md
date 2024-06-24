@@ -112,7 +112,7 @@ from nnfs.datasets import spiral_data
 nnfs.init()
 
 # dense layer
-class dense_layer:
+class Layer_Dense:
 
     # layer initialization
     def __init__(self, n_inputs, n_neurons):
