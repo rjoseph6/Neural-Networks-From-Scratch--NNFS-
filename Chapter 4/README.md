@@ -23,3 +23,13 @@ Two types of activation functions are used in neural networks. The first are one
 
 
 # The Step Activation Function
+
+![asdfadf](../references/step_function.png)
+
+The purpose of an activation function is to mimic a neuron "firing" or "not firing". The most common activation to this is the step function. 
+```python
+if weights * inputs + bias > 0:
+    output = 1
+else:
+    output = 0
+```
