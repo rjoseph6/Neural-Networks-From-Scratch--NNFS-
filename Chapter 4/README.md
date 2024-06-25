@@ -16,6 +16,7 @@ Subsections:
 10. The Softmax Activation Function
 11. Full Code Up to This Point
 
+
 # Introduction
 ![linears_vs_nonlinear.png](../references/linears_vs_nonlinear.png)
 
@@ -26,7 +27,8 @@ Two types of activation functions are used in neural networks. The first are one
 
 # The Step Activation Function
 
-![asdfadf](../references/step_function.png)
+<img src="../references/step_function.png" alt="Linear vs Nonlinear" width="300" height="200">
+
 
 ```python
 if weights * inputs + bias > 0:
@@ -106,6 +108,7 @@ These are more complex problems that are not linearly related. For example, the 
 The reason we can't use linear activation functions in hidden layer neurons is because no matter what weights and biases you use the output will always be perfectly linear (y=x). 
 
 ![linear_activation_hidden_graph.png](../references/nn_all_linear.png)
+
 
 
 # ReLU Activation in a Pair of Neurons
