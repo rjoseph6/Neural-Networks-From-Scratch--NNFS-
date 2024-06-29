@@ -14,8 +14,14 @@ Pg.166-179
 
 # Introduction
 
+The derivatives we have solved so far have been with respect to a single variable. However, in the context of neural networks, we will often have to deal with multiple variables. This is where the concept of partial derivatives comes in.
+
+To learn the impact of all inputs, weights, biases, and neuron output we need to calculate the derivative f each operation performed during forward pass. To do this we will use the chain rule.
 
 # The Partial Derivative
+
+
+
 
 # The Partial Derivative of a Sum
 
