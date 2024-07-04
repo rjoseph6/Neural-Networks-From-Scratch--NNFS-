@@ -49,3 +49,12 @@ YouTube Channel : https://www.youtube.com/watch?v=Wo5dMEP_BbI&list=PLQVvvaa0QuDc
 Website : https://pythonprogramming.net/
 
 Book Website : https://nnfs.io/ 
+
+# Ideas
+
+Make short videos that explain bigger concepts in machine learning. Similar to Code Emporium YouTube Shorts. 
+- Why Transformers over Recurrent Neural Networks?
+- BERT vs. GPT
+- Cross Attention vs. Self Attention
+
+Example: Self Attention vs. Multi-Head Attention - https://youtube.com/shorts/Muvjex0nkes?si=xWR8jPOVuwtuT_Aq 
